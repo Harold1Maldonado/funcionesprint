@@ -19,7 +19,7 @@ function printByLine(time) {
 }
 
 
-
+printByLine(500)
 
 
 function printByChart(time) {
