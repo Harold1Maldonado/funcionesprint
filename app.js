@@ -33,10 +33,10 @@ function printByChart(time) {
             setTimeout(() => {
                 process.stdout.write(char);
                 
-                if ( char.length === index) {
+                if (asciiHeart[i].length - 1 === index) {
                     console.log("")
                 }
-                
+
             }, delay);
             delay += time;
         });
